@@ -1,7 +1,7 @@
 #import "../index.typ": template, tufted
 #show: template.with(
-  title: "网站配置",
-  description: "网站配置文档",
+  title: "哈姆雷特",
+  description: "哈姆雷特",
 )
 
 = 网站配置
