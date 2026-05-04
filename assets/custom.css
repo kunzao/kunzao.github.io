@@ -16,7 +16,7 @@ Add your custom CSS styles here to override or extend the default styles.
 @font-face {
     font-family: 'st';
     /* 替换为你的字体文件实际路径，建议提供多种格式以保证兼容性 */
-    src: url('/GitHUbPages/kunzao.github.io/assets/fonts/syb.otf') format('opentype');
+    src: url('/GitHUbPages/kunzao.github.io/assets/fonts/jz.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap; /* 确保在字体加载完成前显示备用字体，优化体验 */
