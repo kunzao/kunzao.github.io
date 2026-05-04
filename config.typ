@@ -10,7 +10,7 @@
   // 然后在 `content/` 路径中新建 `Entry/`路径，在其中添加 `index.typ` 作为 Entry 页的内容
   header-links: (
     "/": "主页",
-    "/RSC/": "Shakespeare",
+    "/RSC/": "莎士比亚全集",
   ),
   
   /// 网站的站点标题。会显示在浏览器标签页以及 SEO/社交分享卡片中。
