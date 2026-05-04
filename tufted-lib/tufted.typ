@@ -66,8 +66,7 @@
 
         // load CSS
         let base-css = (
-          //"https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.8.0/tufte.min.css",
-          "/assets/css.css",
+          "https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.8.0/tufte.min.css",
           "/assets/tufted.css",
           "/assets/theme.css",
         )
