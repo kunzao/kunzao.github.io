@@ -9,8 +9,7 @@ Add your custom CSS styles here to override or extend the default styles.
     /* 替换为你的字体文件实际路径，建议提供多种格式以保证兼容性 */
     src: url('/GitHUbPages/kunzao.github.io/assets/fonts/HYXuanSong45S.ttf') format('truetype');
     font-weight: normal;
-    font-style: normal;
-    font-display: swap; /* 确保在字体加载完成前显示备用字体，优化体验 */
+    font-style: normal; /* 确保在字体加载完成前显示备用字体，优化体验 */
 }
 
 @font-face {
@@ -18,8 +17,7 @@ Add your custom CSS styles here to override or extend the default styles.
     /* 替换为你的字体文件实际路径，建议提供多种格式以保证兼容性 */
     src: url('/GitHUbPages/kunzao.github.io/assets/fonts/HYXuanSong75S.ttf') format('truetype');
     font-weight: normal;
-    font-style: normal;
-    font-display: swap; /* 确保在字体加载完成前显示备用字体，优化体验 */
+    font-style: normal; /* 确保在字体加载完成前显示备用字体，优化体验 */
 }
 
 /* 2. 设置全局默认字体 */
