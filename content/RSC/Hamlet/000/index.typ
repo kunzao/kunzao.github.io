@@ -1,6 +1,6 @@
 #import "../index.typ": template, tufted
 #show: template.with(
-  title: "哈姆雷特",
+  title: "哈姆雷特-导读",
   description: "哈姆雷特",
 )
 
