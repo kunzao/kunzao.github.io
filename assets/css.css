@@ -130,6 +130,7 @@ ul {
 }
 
 p {
+    line-height: 2rem;
     margin-top: 1.4rem;
     margin-bottom: 1.4rem;
     padding-right: 0;
