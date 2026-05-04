@@ -3,3 +3,38 @@ CUSTOM STYLES
 
 Add your custom CSS styles here to override or extend the default styles.
 *******************************************************************************/
+/* 1. 引入字体文件 */
+@font-face {
+    font-family: 'st';
+    /* 替换为你的字体文件实际路径，建议提供多种格式以保证兼容性 */
+    src: url('/GitHUbPages/kunzao.github.io/assets/fonts/syr.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* 确保在字体加载完成前显示备用字体，优化体验 */
+}
+
+@font-face {
+    font-family: 'st';
+    /* 替换为你的字体文件实际路径，建议提供多种格式以保证兼容性 */
+    src: url('/GitHUbPages/kunzao.github.io/assets/fonts/syb.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* 确保在字体加载完成前显示备用字体，优化体验 */
+}
+
+/* 2. 设置全局默认字体 */
+:root {
+    /* 定义一个变量方便后续调用 */
+    --main-font: 'st';
+}
+
+body {
+    font-family: var(--main-font);
+    -webkit-font-smoothing: antialiased; /* 让字体在 macOS/iOS 上显示更清晰 */
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 3. 确保标题等加粗元素也能正确显示（如果玄宋有粗体版本，需另行声明） */
+h1, h2, h3, h4, h5, h6, b, strong {
+    font-family: var(--main-font);
+}
