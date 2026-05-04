@@ -27,14 +27,3 @@ Add your custom CSS styles here to override or extend the default styles.
     /* 定义一个变量方便后续调用 */
     --main-font: 'st';
 }
-
-body {
-    font-family: var(--main-font);
-    -webkit-font-smoothing: antialiased; /* 让字体在 macOS/iOS 上显示更清晰 */
-    -moz-osx-font-smoothing: grayscale;
-}
-
-/* 3. 确保标题等加粗元素也能正确显示（如果玄宋有粗体版本，需另行声明） */
-h1, h2, h3, h4, h5, h6, b, strong {
-    font-family: var(--main-font);
-}
